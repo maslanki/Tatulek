@@ -1,5 +1,7 @@
 packages:
   - .
 minimumReleaseAge: 2880
+minimumReleaseAgeExclude:
+  - '@types/node@26.4.0'
 onlyBuiltDependencies:
   - sharp
